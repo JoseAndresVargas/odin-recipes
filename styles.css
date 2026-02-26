@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(102, 155, 188);
+}
+
+.title {
+  background-color: rgb(193, 18, 31);
+  color: rgb(253, 240, 213);
+  text-align: center;
+  border-radius: 10px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.recipe-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.recipe {
+  min-width: 300px;
+  flex: 1 1 auto;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 3;
+  color: rgb(253, 240, 213);
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.recipe:link,
+.recipe:visited,
+.recipe:focus {
+  background: rgb(148, 210, 189);
+}
+
+.recipe:hover {
+  background: rgb(10, 147, 150);
+}
+
+.recipe:active {
+  background: darkred;
+  color: white;
+}
