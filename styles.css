@@ -18,11 +18,9 @@ body {
   gap: 10px;
 }
 
-.recipe {
-  min-width: 300px;
-  flex: 1 1 auto;
+.recipe,
+.home-pg-btn {
   text-decoration: none;
-  outline-color: transparent;
   text-align: center;
   line-height: 3;
   color: rgb(253, 240, 213);
@@ -32,15 +30,30 @@ body {
 
 .recipe:link,
 .recipe:visited,
-.recipe:focus {
+.recipe:focus,
+.home-pg-btn:link,
+.home-pg-btn:visited,
+.home-pg-btn:focus {
   background: rgb(148, 210, 189);
 }
 
-.recipe:hover {
+.recipe:hover,
+.home-pg-btn:hover {
   background: rgb(10, 147, 150);
 }
 
-.recipe:active {
+.recipe:active,
+.home-pg-btn:active {
   background: darkred;
   color: white;
+}
+
+.recipe {
+  min-width: 300px;
+  flex: 1 1 auto;
+}
+
+.home-pg-btn {
+  padding: 10px 25px;
+  margin: 10px;
 }
